@@ -131,7 +131,12 @@ footer {
     }
 
     .profile-pic {
-        width: 120px;
-        height: 120px;
-    }
+    width: 150px;  /* Adjust the size */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it a circle */
+    display: block;
+    margin: 20px auto; /* Center the image */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds depth */
+}
+
 }
