@@ -50,8 +50,8 @@ section {
 
 /* Home Section */
 #home {
-    background-color: #5B197E;
-    color: #F8F5F2;
+    background-color: #F8F5F2;
+    color: #5B197E;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -68,14 +68,14 @@ section {
 
 /* About Section */
 #about {
-    background-color: #E3C567;
-    color: #14213D;
+    background-color: #F8F5F2;
+    color: #5B197E;
 }
 
 /* Services Section */
 #services {
-    background-color: #0068FF;
-    color: #F8F5F2;
+    background-color: #F8F5F2;
+    color: #5B197E;
 }
 
 #services ul {
@@ -94,18 +94,18 @@ section {
 
 /* Projects Section */
 #projects {
-    background-color: #B0A8B9;
+    background-color: #0068FF;
 }
 
 /* Contact Section */
 #contact {
-    background-color: #14213D;
-    color: #E3C567;
+    background-color: #F8F5F2;
+    color: #5B197E;
 }
 
 #contact a {
     display: block;
-    color: #E3C567;
+    color: #5B197E;
     font-weight: bold;
     text-decoration: none;
     margin: 10px 0;
@@ -114,8 +114,8 @@ section {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #5B197E;
-    color: #F8F5F2;
+    background-color: #E3C567;
+    color: #5B197E;
     padding: 10px;
 }
 
