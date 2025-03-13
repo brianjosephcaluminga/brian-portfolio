@@ -1,0 +1,75 @@
+* Typography *
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8F5F2;
+    color: #14213D;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #5B197E;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F8F5F2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #5B197E;
+    color: #F8F5F2;
+}
+
+#about {
+    background-color: #E3C567;
+    color: #14213D;
+}
+
+#services {
+    background-color: #0068FF;
+    color: #F8F5F2;
+}
+
+#projects {
+    background-color: #B0A8B9;
+    color: #14213D;
+}
+
+#contact {
+    background-color: #14213D;
+    color: #F8F5F2;
+}
+
+/* Footer */
+footer {
+    background-color: #5B197E;
+    color: #F8F5F2;
+    text-align: center;
+    padding: 10px 0;
+}
