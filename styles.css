@@ -14,7 +14,7 @@ h1, h2, h3 {
 
 /* Navigation Bar */
 nav {
-    background-color: #5B197E;
+    background-color: #E3C567;
     padding: 20px 0;
     text-align: center;
     position: fixed;
@@ -36,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #F8F5F2;
+    color: #14213D;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
