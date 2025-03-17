@@ -154,6 +154,7 @@ footer {
 .tools-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
@@ -167,8 +168,9 @@ footer {
 }
 
 .tool img {
-    width: 360px;
-    height: 360px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 50%;
     background-color: #F8F5F2;
     padding: 10px;
