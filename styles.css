@@ -170,7 +170,7 @@ footer {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #222;
+    background-color: #F8F5F2;
     padding: 10px;
 }
 
@@ -178,6 +178,4 @@ footer {
     margin-top: 10px;
     font-size: 14px;
     color: white;
-}
-
 }
