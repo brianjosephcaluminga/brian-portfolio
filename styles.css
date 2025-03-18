@@ -170,7 +170,7 @@ footer {
     width: 100px;
 }
 
-.tools-container .tool img {
+#tools .tools-container .tool img {
     width: 150px !important;  /* Force width */
     height: 150px !important; /* Force height */
     object-fit: cover !important; /* Ensure it fills the space */
