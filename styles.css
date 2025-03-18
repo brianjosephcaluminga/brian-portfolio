@@ -171,13 +171,13 @@ footer {
 }
 
 .tool img {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-    border-radius: 10%;
-    background-color: #F8F5F2;
-    padding: 5px;
-    display: block;
+    width: 150px !important;  /* Force width */
+    height: 150px !important; /* Force height */
+    object-fit: cover !important; /* Ensure it fills the space */
+    border-radius: 10% !important;
+    background-color: #F8F5F2 !important;
+    padding: 5px !important;
+    display: block !important; /* Prevent unwanted spacing */
 }
 
 .tool p {
