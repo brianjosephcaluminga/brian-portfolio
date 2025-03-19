@@ -171,12 +171,27 @@ section {
 
 /* Portfolio Images */
 .portfolio-item img {
-    width: 100%;
-    height: auto;
+    width: 48%; /* Adjust width to fit side by side */
+    display: inline-block;
+    margin: 5px;
     border-radius: 10px;
     object-fit: cover;
-    max-height: 200px; /* Controls image height */
+    max-height: 200px; /* Adjust as needed */
 }
+
+.image-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-group img {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 200px;
+}
+
 
 /* Portfolio Text */
 .portfolio-item p {
