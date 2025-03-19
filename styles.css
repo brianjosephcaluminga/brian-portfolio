@@ -44,7 +44,7 @@ nav ul li a {
 
 /* Sections */
 section {
-    padding: 100px 15%;
+    padding: 40px 15%;
     text-align: center;
 }
 
@@ -107,7 +107,7 @@ section {
 }
 
 #tools h2 span {
-    color: #0068FF;
+    color: #F8F5F2;
 }
 
 .tools-container {
