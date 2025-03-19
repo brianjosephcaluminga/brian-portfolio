@@ -53,7 +53,7 @@ section {
 #home {
     background-color: #F8F5F2;
     color: #5B197E;
-    height: 50vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
