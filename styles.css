@@ -186,7 +186,7 @@ section {
 }
 
 .image-group img {
-    width: 48%; /* Adjust width so two images fit in one row */
+    width: 30%; /* Adjust width so two images fit in one row */
 }
 
 /* ✅ Mobile-friendly adjustments */
