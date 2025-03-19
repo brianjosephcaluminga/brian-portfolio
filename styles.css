@@ -162,7 +162,7 @@ section {
 
 /* Portfolio Items */
 .portfolio-item {
-    display: flex; /* 🛠 Force all items to have the same height */
+    /*display: flex; /* 🛠 Force all items to have the same height */
     flex-direction: column; /* 🛠 Makes the content inside follow a structured order */
     justify-content: space-between; /* 🛠 Ensures image and text are well-spaced */
     width: 100%
