@@ -151,18 +151,19 @@ section {
 .portfolio-container {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly; /* Evenly distribute space */
+    gap: 15px;
 }
 
 /* Portfolio Items */
 .portfolio-item {
+    flex: 1 1 280px; /* Responsive width */
+    max-width: 320px; /* Prevents overly wide cards */
     background: white;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    width: 300px; /* Sets a max width for each portfolio item */
 }
 
 /* Hover Effect */
@@ -179,9 +180,8 @@ section {
 }
 
 .image-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 5px;
 }
 
