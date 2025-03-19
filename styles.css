@@ -55,8 +55,8 @@ section {
     color: #5B197E;
     height: 40vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 10%; /* Adjust padding for better spacing */
 }
 
