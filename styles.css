@@ -153,14 +153,18 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
     gap: 15px;
     justify-content: center; /* Center items properly */
-    align-items: start; /* Align items to the top */
-    grid-auto-flow: dense; /* Helps fill gaps */
+    align-items: stretch; /* 🛠 Make sure all items have the same height */
+    /*align-items: start; /* Align items to the top */
+    /*grid-auto-flow: dense; /* Helps fill gaps */
     
     border: 2px solid red; /* Debugging */
 }
 
 /* Portfolio Items */
 .portfolio-item {
+    display: flex; /* 🛠 Force all items to have the same height */
+    flex-direction: column; /* 🛠 Makes the content inside follow a structured order */
+    justify-content: space-between; /* 🛠 Ensures image and text are well-spaced */
     width: 100%
     background: white;
     border-radius: 10px;
@@ -180,6 +184,7 @@ section {
     height: auto;
     /*max-height: 100%; /* Ensures all images maintain aspect ratio */
     object-fit: contain; /* Prevents Cropping */
+    flex-grow: 1; /* 🛠 Allows images to take up available space */
 }
 
 .image-group {
