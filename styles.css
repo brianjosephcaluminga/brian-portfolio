@@ -186,7 +186,9 @@ section {
 }
 
 .image-group img {
-    width: 30%; /* Adjust width so two images fit in one row */
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* ✅ Mobile-friendly adjustments */
