@@ -151,13 +151,15 @@ section {
 .portfolio-container {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-    justify-content: space-evenly; /* Evenly distribute space */
+    justify-content: center; /* Center items properly */
+    align-items: flex-start; /* Align items to the top */
     gap: 15px;
+    border: 2px solid red; /* Debugging */
 }
 
 /* Portfolio Items */
 .portfolio-item {
-    flex: 1 1 280px; /* Responsive width */
+    flex: 0 1 3000px; /* Responsive width */
     max-width: 320px; /* Prevents overly wide cards */
     background: white;
     border-radius: 10px;
@@ -175,8 +177,8 @@ section {
 .portfolio-item img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
-    display: block;
+    max-height: 400px; /* Prevents extra tall images */
+    object-fit: cover; /* Ensures consistent image sizes */
 }
 
 .image-group {
