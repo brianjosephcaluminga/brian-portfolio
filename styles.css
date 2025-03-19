@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Montserrat;
     margin: 0;
     padding: 0;
     background-color: #F8F5F2;
@@ -9,13 +9,13 @@ body {
 
 /* Typography */
 h1, h2, h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Raleway;
 }
 
 /* Navigation Bar */
 nav {
     background-color: #E3C567;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -44,7 +44,7 @@ nav ul li a {
 
 /* Sections */
 section {
-    padding: 80px 15%;
+    padding: 100px 15%;
     text-align: center;
 }
 
@@ -60,28 +60,11 @@ section {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    section {
-        padding: 60px 10%;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .profile-pic {
-    width: 350px;  /* Adjust the size */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10%; /* Make it a circle */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Adds depth */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* About Section */
@@ -103,20 +86,62 @@ section {
 }
 
 #services li {
-    font-size: 16px;
-    margin: 5px 0; /* Reduce spacing */
-    padding-left: 0; /* Ensure no extra left padding */
-    display: flex; /* Align icon and text properly */
-    align-items: center; /* Center icon and text vertically */
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #services li i {
-    margin-right: 5px;
+    margin-right: 10px;
+    color: #14213D;
+}
+
+/* Tools Section */
+#tools {
+    background-color: #0D0D0D;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+#tools h2 span {
+    color: #0068FF;
+}
+
+.tools-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.tool img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    background-color: #F8F5F2;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.tool p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* Projects Section */
 #projects {
     background-color: #0068FF;
+    color: white;
+}
+
+#projects a {
+    color: #E3C567;
+    font-weight: bold;
 }
 
 /* Contact Section */
@@ -126,67 +151,24 @@ section {
 }
 
 #contact a {
-    display: block;
     color: #5B197E;
     font-weight: bold;
     text-decoration: none;
-    margin: 10px 0;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    background-color: #E3C567;
-    color: #5B197E;
-    padding: 10px;
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        padding: 80px 10%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
 }
-
-
-#tools {
-    background-color: #0D0D0D;
-    padding: 50px 20px;
-    text-align: center;
-    color: white;
-}
-
-#tools h2 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.tools-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 20px;
-}
-
-.tool {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-}
-
-#tools .tools-container .tool img {
-    width: 150px !important;  /* Force width */
-    height: 150px !important; /* Force height */
-    object-fit: contain !important; /* Ensure it fills the space */
-    border-radius: 10% !important;
-    background-color: #F8F5F2 !important;
-    padding: 5px !important;
-    display: block !important; /* Prevent unwanted spacing */
-}
-
-.tool p {
-    margin-top: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
-}
-
-
