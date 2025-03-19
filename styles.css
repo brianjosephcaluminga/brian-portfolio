@@ -55,9 +55,9 @@ section {
     color: #5B197E;
     height: 40vh;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-between;
-    padding: 0 10%; /* Adjust padding for better spacing */
+    /*padding: 0 10%; /* Adjust padding for better spacing */
 }
 
 .profile-pic {
