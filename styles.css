@@ -161,8 +161,7 @@ section {
 
 /* Portfolio Items */
 .portfolio-item {
-    flex: 0 1 3000px; /* Responsive width */
-    max-width: 320px; /* Prevents overly wide cards */
+    width: 100%
     background: white;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -203,7 +202,7 @@ section {
     }
 
     .portfolio-item {
-        width: 90%; /* Full width on smaller screens */
+        width: 100%; /* Full width on smaller screens */
     }
 
     .image-group img {
